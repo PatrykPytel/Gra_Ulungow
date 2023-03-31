@@ -34,10 +34,12 @@ public class ruszanie : MonoBehaviour
             rb.velocity = new Vector3(rb.velocity.x , jumpForce);
         }
 
+     
+
     
         UpdateAnimationUpdate();
-     
-     
+    
+    
      }
       private void UpdateAnimationUpdate()
      {
